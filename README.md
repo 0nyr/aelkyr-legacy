@@ -1,8 +1,8 @@
-**# aelkyr**
+# AELKYR
 
 _Le Git du projet AELKYR_
 
-###### *** Bienvenue sur le GitHub privé d'AELKYR. ***
+### *** Bienvenue sur le GitHub privé d'AELKYR. ***
 
 ```diff
 # Un mot sur la sécurité :
