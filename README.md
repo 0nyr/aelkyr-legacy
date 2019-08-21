@@ -1,6 +1,6 @@
 # AELKYR
 
-_Le Git privé du projet AELKYR_
+_Le Git privé du projet AELKYR :+1_
 
 
 ## Un mot sur la sécurité :
