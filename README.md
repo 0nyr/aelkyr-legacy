@@ -1,5 +1,6 @@
 **# aelkyr**
-_ _Le Git du projet AELKYR_ _
+
+_Le Git du projet AELKYR_
 
 *** Bienvenue sur le GitHub privé d'AELKYR. ***
 
