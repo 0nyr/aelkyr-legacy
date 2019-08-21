@@ -1,8 +1,6 @@
 # AELKYR
 
-_Le Git du projet AELKYR_
-
-### *** Bienvenue sur le GitHub privé d'AELKYR. ***
+_Le Git privé du projet AELKYR_
 
 
 ## Un mot sur la sécurité :
