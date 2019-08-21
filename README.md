@@ -3,7 +3,9 @@ Le Git du projet AELKYR
 
 *** Bienvenue sur le GitHub privé d'AELKYR. ***
 
-Un mot sur la sécurité :
+```diff
+- Un mot sur la sécurité :
+```
   - Le jeu se voulant multijoueurs, et dans le but de préserver le travail de ses auteurs, ce GitHub est et restera privé. Ce sera d'autant plus vrai lorsque les statistique de fouilles par exemple seront directement consultable sur le Git. En aucun cas le code du GitHub ne devra être publié ou envoyé à quelqu'un sans passer par le Git lui-même.
 
 Le projet en bref :
