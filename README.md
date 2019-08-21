@@ -1,4 +1,6 @@
-![alt text](http://aelkyr.net/sprites_usable/logo_presentation_aelkyr_usable.png)
+<p align="center">
+  <img src="http://aelkyr.net/sprites_usable/logo_presentation_aelkyr_usable.png">
+</p>
 
 # 
 
