@@ -1,4 +1,7 @@
-# AELKYR
+![alt text](http://aelkyr.net/sprites_usable/logo_presentation_aelkyr_usable.png)
+
+# 
+
 
 _Le Git privé du projet AELKYR_ :+1:
 
