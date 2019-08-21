@@ -1,0 +1,118 @@
+/* general settings for AELKYR presentation page */
+
+html {
+	background-color: #0f1214;
+}
+
+p {	
+	color: #b33c14;
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	text-align: justify;
+}
+
+a {
+	text-decoration: none; 	/* remove underbar for links */
+	color: #cf5009;
+	font-weight: bold;
+}
+
+h1 {
+	color: #cf5009;
+	font-family: 'Muli', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* nav bar */
+
+#header {
+	position: fixed;
+	top: 0px;
+	height: 60px;
+	width: 100%;
+	background : #040708;
+	text-align: center;
+	
+	overflow: visible;
+}
+
+#nav_aelkyr_logo {
+	position: fixed;
+	left: 0px;
+	margin: 7px 30px;
+}
+
+#header p {
+	text-align: center;
+	margin-top: 21px;
+}
+
+/* body content */
+
+.content {
+
+}
+
+#presentation_aelkyr_logo {
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+.content img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content p {
+	margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+	margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#content_end_filler {
+	height: 40px;
+	width: 400px;
+}
+
+/* news section */
+
+.news_update {
+	margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.news_update p {
+	display: inline;
+}
+
+.dot_news {
+	display: inline-block;
+	background-image: url("./sprites_usable/dot_pin_1_usable.png");
+	height: 18px;
+	width: 18px;
+}
+
+/* footer section */
+
+
+
+
+
+
+
+
+
+
