@@ -11,14 +11,31 @@
 
 <body>
 	
-	<nav id="header">
-		<img id='nav_aelkyr_logo' src="./sprites_usable/nav_aelkyr_logo_usable.png"/>
-		<p>Le dernier projet pour rescussiter Hordes</p>
-		<div id="header_separator"></div>
+	<nav>
+		<!-- normal order as float: left; , these are fixed elements -->
+		<a id="nav_aelkyr_logo" href="http://aelkyr.net/index.html">
+			<img class='nav_button_back' src="./sprites_usable/nav_sprites/nav_aelkyr_logo_hover_usable.png">
+			<img class='nav_button_front' src="./sprites_usable/nav_sprites/nav_aelkyr_logo_usable.png">
+		</a>
+		
+		<!-- reversed order as float: right; -->
+		<a class='nav_button' href="./game_main_preview/game_main_preview.html">
+			<img class='nav_button_back' src="./sprites_usable/nav_sprites/button_preview_pushed_91x21_usable.png">
+			<img class='nav_button_front' src="./sprites_usable/nav_sprites/button_preview_91x21_usable.png">
+		</a>
+		<a class='nav_button' href="./connection_inscription/connexion.php">
+			<img class='nav_button_back' src="./sprites_usable/nav_sprites/button_connection_pushed_91x21_usable.png">
+			<img class='nav_button_front' src="./sprites_usable/nav_sprites/button_connection_91x21_usable.png">
+		</a>
+		<a class='nav_button' href="./connection_inscription/inscription.php">
+			<img class='nav_button_back' src="./sprites_usable/nav_sprites/button_s'inscrire_pushed_91x21_usable.png">
+			<img class='nav_button_front' src="./sprites_usable/nav_sprites/button_s'inscrire_91x21_usable.png">
+		</a> 
 	</nav>
 	
-	<section class="content" >
+	<section class="content" id="top_content" >
 		<img id='presentation_aelkyr_logo' src="./sprites_usable/logo_presentation_aelkyr_usable.png"/>
+		<p>Le dernier projet pour ressusciter Hordes.</p>
 		<h1>Tout se passe des millénaires après la grande Chute de la civilisation</h1>
 		<p> 
 			</br>
@@ -150,6 +167,14 @@
 			<div class="dot_news"></div>
 			<p>
 				[21/08/2019] GitHub et Trello privés opérationnels.</br>
+				</br>
+			</p>
+		</div>
+		
+		<div class="news_update">
+			<div class="dot_news"></div>
+			<p>
+				[25/08/2019] Première mise en place de la base de données, preview disponible.</br>
 				</br>
 			</p>
 		</div>

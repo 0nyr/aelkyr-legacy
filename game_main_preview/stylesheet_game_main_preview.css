@@ -1,5 +1,4 @@
-/* general settings for AELKYR presentation page */
-
+/* general settings */
 html {
 	background-color: #0f1214;
 }
@@ -13,23 +12,8 @@ p {
 
 a {
 	text-decoration: none; 	/* remove underbar for links */
-	color: #236199;
-}
-
-a:hover {
-	color: #49add0;
-	text-decoration: underline;
-}
-
-h1 {
 	color: #cf5009;
-	font-family: 'Muli', sans-serif;
-	font-size: 20px;
 	font-weight: bold;
-}
-
-h1:hover {
-	color: #f59e00;
 }
 
 /* nav bar */
@@ -42,6 +26,7 @@ nav {
 	background : #040708;
 	display: inline-block;
 	overflow: visible;
+	z-index: 200;
 }
 
 #nav_aelkyr_logo {
@@ -60,7 +45,7 @@ nav {
 	position: absolute;
 	top: 0px;
 	left: 0; /* WRNG: necessary for firefox */
-}
+} 
 
 #nav_aelkyr_logo:hover .nav_button_front { /*https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php*/
   z-index: -99;
@@ -81,68 +66,62 @@ nav {
 
 /* body content */
 
-#top_content {
-	margin-top: 70px;
+body {
+	position: relative;
+	z-index: -10;
+	margin-top: 40px;
 }
 
-#presentation_aelkyr_logo {
-	margin-bottom: 20px;
-}
-
-.content img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.content p {
+.content {
+	width: 800px;
+	height: 100%;
+	margin-right: auto;
 	margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+	position: relative;
 }
 
-.content h1 {
+#testsprite_1 {
+	width: 800px;
+	height: 100%;
+	margin-right: auto;
 	margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
-#content_end_filler {
-	height: 40px;
-	width: 400px;
+/* the text zones on the screen */
+
+#text_1 {
+	position: absolute;
+	top: 704px;
+	left: 480px;
+	color: #3a110e;
 }
 
-/* news section */
-
-.news_update {
-	margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+#text_2 {
+	position: absolute;
+	top: 758px;
+	left: 480px;
+	color: #3a110e;
 }
 
-.news_update p {
-	display: inline;
+#text_3 {
+	position: absolute;
+	top: 582px;
+	left: 733px;
+	color: #f59e00;
+}
 }
 
-.dot_news {
-	display: inline-block;
-	background-image: url("./sprites_usable/dot_pin_1_usable.png");
-	height: 18px;
-	width: 18px;
+@media screen and (max-width: 991px) {
+/* start of large tablet styles */
+
 }
 
-/* footer section */
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
 
+}
 
-
-
-
-
-
-
-
-
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+	
+}
