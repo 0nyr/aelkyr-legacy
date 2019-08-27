@@ -56,4 +56,4 @@ else if($_POST['pass'] != $_POST['verifPass']){
 else{
     $_SESSION['alerte'] = '<strong>Vous n\'avez pas rempli tous les champs</strong>';
 }
-header('Location: inscription.php');
+header('Location: ../inscription.php');
