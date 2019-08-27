@@ -3,18 +3,19 @@ session_start();
 require_once('../../assets/config.php');
 require_once('../../assets/_class/Users.php');
 
-
+// Si les champs sont remplis et que les mots de passes sont similaires
 if($_POST['pseudo'] != null AND $_POST['pass'] != null AND $_POST['verifPass'] != null AND $_POST['email'] != null AND $_POST['pass'] == $_POST['verifPass']){
     $db = connexion_pdo();
-    // Check if mail doesn't exist
+    // Vérification si l'adresse e-mail existe
     $verif_email = new GestionUtilisateur($db);
     $verif_email = $verif_email->getbymail($_POST['email']);
-    // Check if pseudo doesn't exist
+    // Vérification si le pseudo existe
     $verif_pseudo = new GestionUtilisateur($db);
     $verif_pseudo = $verif_pseudo->getbypseudo($_POST['pseudo']);
 
+    // Si aucun des deux n'existe
     if (!isset($verif_email->id) && !isset($verif_pseudo->id)) {
-
+        // Génération d'un code aléatoire permettant de valider son inscription par la suite
         $characts = 'abcdefghijklmnopqrstuvwxyz';
         $characts .= 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
         $characts .= '1234567890';
@@ -22,12 +23,12 @@ if($_POST['pseudo'] != null AND $_POST['pass'] != null AND $_POST['verifPass'] !
         for ($i = 0; $i < 50; $i++) {
             $code_aleatoire .= $characts[rand() % strlen($characts)];
         }
-
+        // Hashage du mot de passe pour sécurité
         $mot_de_passe = $_POST['pass'];
         $pass_hache = password_hash($mot_de_passe, PASSWORD_DEFAULT);
+        // Récupération de la date d'aujourd'hui pour savoir quand le compte a été créé
         $date_inscription = getdate();
-
-
+        // Création de l'objet $utilisateur dans lequel est enregistré ses informations
         $utilisateur = (object)array(
             'pseudo' => htmlentities($_POST['pseudo']),
             'pass' => $pass_hache,
@@ -35,9 +36,10 @@ if($_POST['pseudo'] != null AND $_POST['pass'] != null AND $_POST['verifPass'] !
             'code' => $code_aleatoire,
             'created' => $date_inscription[0]
         );
+        // Appel de la class pour ajouter cet utilisateur en BDD
         $ajout_utilisateur = new GestionUtilisateur($db);
         $ajout_utilisateur->add($utilisateur);
-
+        // Envoi du mail pour demander à l'utilisateur de valider son compte
         $to = $_POST['email'];
         $subject = 'Votre inscription sur AELKYR';
         $message = 'Veuillez cliquer sur ce lien pour valider votre inscription : http://aelkyr.net/inscription/include/verif_accounts.php?code=' . $code_aleatoire .'&email=' . $_POST['email'];
