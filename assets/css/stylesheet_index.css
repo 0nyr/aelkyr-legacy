@@ -1,38 +1,4 @@
-/* general settings for AELKYR presentation page */
-
-html {
-	background-color: #0f1214;
-}
-
-p {	
-	color: #b33c14;
-	font-family: 'Muli', sans-serif;
-	font-size: 18px;
-	text-align: justify;
-}
-
-a {
-	text-decoration: none; 	/* remove underbar for links */
-	color: #236199;
-}
-
-a:hover {
-	color: #49add0;
-	text-decoration: underline;
-}
-
-h1 {
-	color: #cf5009;
-	font-family: 'Muli', sans-serif;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-h1:hover {
-	color: #f59e00;
-}
-
-/* nav bar */
+/* nav bar for home page */
 
 nav {
 	position: fixed;
@@ -63,7 +29,7 @@ nav {
 }
 
 #nav_aelkyr_logo:hover .nav_button_front { /*https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php*/
-  z-index: -99;
+	z-index: -99;
 }
 
 .nav_button {
@@ -135,7 +101,6 @@ nav {
 	width: 18px;
 }
 
-/* footer section */
 
 
 

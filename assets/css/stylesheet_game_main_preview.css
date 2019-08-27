@@ -1,0 +1,45 @@
+/* body content */
+
+body {
+	position: relative;
+	z-index: -10;
+	margin-top: 40px;
+}
+
+.content {
+	width: 800px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#testsprite_1 {
+	width: 800px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* the text zones on the screen */
+
+#text_1 {
+	position: absolute;
+	top: 704px;
+	left: 480px;
+	color: #3a110e;
+}
+
+#text_2 {
+	position: absolute;
+	top: 758px;
+	left: 480px;
+	color: #3a110e;
+}
+
+#text_3 {
+	position: absolute;
+	top: 582px;
+	left: 733px;
+	color: #f59e00;
+}
