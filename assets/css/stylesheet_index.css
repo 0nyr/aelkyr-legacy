@@ -96,7 +96,7 @@ nav {
 
 .dot_news {
 	display: inline-block;
-	background-image: url("./sprites_usable/dot_pin_1_usable.png");
+	background-image: url("../img/dot_pin_1_usable.png");
 	height: 18px;
 	width: 18px;
 }
