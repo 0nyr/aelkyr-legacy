@@ -1,8 +1,35 @@
-<?php include_once("templates/head.php")?>
-<?php include_once("templates/header.php")?>
+	<?php include_once("./templates/head.php")?>
+
+	<title>home - aelkyr.net</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/stylesheet_index.css">
+</head>
+
+<body>
+	
+	<nav role="navigation">
+		<!-- normal order as float: left; , these are fixed elements -->
+		<a id="nav_aelkyr_logo" href="http://aelkyr.net/">
+			<img class='nav_button_back' src="./assets/img/nav_sprites/nav_aelkyr_logo_hover_usable.png">
+			<img class='nav_button_front' src="./assets/img/nav_sprites/nav_aelkyr_logo_usable.png">
+		</a>
+
+		<!-- reversed order as float: right; -->
+		<a class='nav_button' href="./game_main_preview/game_main_preview.php">
+			<img class='nav_button_back' src="./assets/img/nav_sprites/button_preview_pushed_91x21_usable.png">
+			<img class='nav_button_front' src="./assets/img/nav_sprites/button_preview_91x21_usable.png">
+		</a>
+		<a class='nav_button' href="./connection/connexion.php">
+			<img class='nav_button_back' src="./assets/img/nav_sprites/button_connection_pushed_91x21_usable.png">
+			<img class='nav_button_front' src="./assets/img/nav_sprites/button_connection_91x21_usable.png">
+		</a>
+		<a class='nav_button' href="./connection/inscription.php">
+			<img class='nav_button_back' src="./assets/img/nav_sprites/button_s'inscrire_pushed_91x21_usable.png">
+			<img class='nav_button_front' src="./assets/img/nav_sprites/button_s'inscrire_91x21_usable.png">
+		</a>
+	</nav>
 
 	<section class="content" id="top_content" >
-		<img id='presentation_aelkyr_logo' src="./assets/img/sprites_usable/logo_presentation_aelkyr_usable.png"/>
+		<img id='presentation_aelkyr_logo' src="./assets/img/logo_presentation_aelkyr_usable.png"/>
 		<p>Le dernier projet pour ressusciter Hordes.</p>
 		<h1>Tout se passe des millénaires après la grande Chute de la civilisation</h1>
 		<p> 
@@ -19,7 +46,7 @@
 			</br>
 			   <i>Vestibule de l'enfer, Chant III, L'Enfer. Dante</i></br>
 		</p>
-		<img class='separator' src="./assets/img/sprites_usable/separator_1_usable.png"/>
+		<img class='separator' src="./assets/img/separator_1_usable.png"/>
 		<h1>La Terre est meurtrie, mais reste le dernier espoir de l'humanité</h1>
 		<p>
 			</br>
@@ -75,7 +102,7 @@
 			recolonisation de la Terre. Terre qui est désormais un monde 
 			hostile, emplit de monstres et de dangers du passé. Prenez garde.
 		</p>
-		<img class='separator' src="./assets/img/sprites_usable/separator_1_usable.png"/>
+		<img class='separator' src="./assets/img/separator_1_usable.png"/>
 		<h1>Le projet AELKYR: l'esprit de Hordes, modernisé, revitalisé et libéré de flash</h1>
 		<p>
 			Hordes va mourir, du moins en l'état actuel des
@@ -109,7 +136,7 @@
 			</br>
 			   ---------- Onyr ----------</br>
 		</p>
-		<img class='separator' src="./assets/img/sprites_usable/separator_1_usable.png"/>
+		<img class='separator' src="./assets/img/separator_1_usable.png"/>
 	</section>
 	
 	<section class="content" id="news" >
@@ -147,9 +174,10 @@
 			</p>
 		</div>
 		
-		<img class='separator' src="./assets/img/sprites_usable/separator_1_usable.png"/>
+		<img class='separator' src="./assets/img/separator_1_usable.png"/>
 		<div id="content_end_filler"></div>
 	</section>
+	
+</body>
 
 <?php include_once("./templates/footer.php")?>
-

@@ -1,0 +1,33 @@
+/* general settings for all pages */
+
+html {
+	background-color: #0f1214;
+}
+
+p {	
+	color: #b33c14;
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	text-align: justify;
+}
+
+a {
+	text-decoration: none; 	/* remove underbar for links */
+	color: #236199;
+}
+
+a:hover {
+	color: #49add0;
+	text-decoration: underline;
+}
+
+h1 {
+	color: #cf5009;
+	font-family: 'Muli', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h1:hover {
+	color: #f59e00;
+}
