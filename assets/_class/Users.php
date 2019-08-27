@@ -7,7 +7,7 @@ class GestionUtilisateur {
     }
 
     public function add($utilisateur) {
-        $q = $this->_db->prepare('INSERT INTO accounts(pseudo, pass, email, code, state, created) VALUES(:pseudo, :pass, :email, :code, :state, :created)');
+        $q = $this->_db->prepare('INSERT INTO accounts(pseudo, password, email, code, state, created) VALUES(:pseudo, :pass, :email, :code, :state, :created)');
 
         $q->bindParam(':pseudo', $utilisateur->pseudo);
         $q->bindParam(':pass', $utilisateur->pass);

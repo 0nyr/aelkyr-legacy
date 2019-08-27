@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e5a67fd-cf13-4c74-b79f-292cc577b85d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connexion/includes/create_user.php" afterPath="$PROJECT_DIR$/connexion/includes/create_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connexion/includes/verif_accounts.php" afterPath="$PROJECT_DIR$/connexion/includes/verif_accounts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_class/Users.php" afterPath="$PROJECT_DIR$/assets/_class/Users.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,22 +13,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create_user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/connexion/includes/create_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="41" column="76" lean-forward="false" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="verif_accounts.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="verif_accounts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connexion/includes/verif_accounts.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
               <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/_class/Users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+              <folding>
+                <marker date="1566902304962" expanded="true" signature="218:341" ph="INSERT INTO accounts... " />
+                <marker date="1566902304962" expanded="true" signature="772:824" ph="UPDATE accou... " />
+                <marker date="1566902304962" expanded="true" signature="1057:1091" ph="SELECT * FRO... accounts" />
+                <marker date="1566902304962" expanded="true" signature="1264:1302" ph="SELECT * FRO... accounts" />
+                <marker date="1566902304962" expanded="true" signature="1546:1585" ph="SELECT * FRO... v2_users" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,11 +65,11 @@
         <option value="$PROJECT_DIR$/templates/header.php" />
         <option value="$PROJECT_DIR$/templates/head.php" />
         <option value="$PROJECT_DIR$/connection_inscription/verif_accounts.php" />
-        <option value="$PROJECT_DIR$/assets/_class/Users.php" />
         <option value="$PROJECT_DIR$/game/index.php" />
         <option value="$PROJECT_DIR$/assets/_class/Cities.php" />
         <option value="$PROJECT_DIR$/connexion/includes/create_user.php" />
         <option value="$PROJECT_DIR$/connexion/includes/verif_accounts.php" />
+        <option value="$PROJECT_DIR$/assets/_class/Users.php" />
       </list>
     </option>
   </component>
@@ -75,8 +80,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-45" />
+    <option name="y" value="483" />
     <option name="width" value="1680" />
     <option name="height" value="984" />
   </component>
@@ -166,15 +172,15 @@
       <option name="presentableId" value="Default" />
       <updated>1566392451838</updated>
       <workItem from="1566392454629" duration="35000" />
-      <workItem from="1566898449912" duration="2511000" />
+      <workItem from="1566898449912" duration="2738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2546000" />
+    <option name="totallyTimeSpent" value="2773000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="984" extended-state="6" />
+    <frame x="-45" y="483" width="1680" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -371,25 +377,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/_class/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <marker date="1566900388523" expanded="true" signature="218:337" ph="INSERT INTO accounts... " />
-            <marker date="1566900388523" expanded="true" signature="768:820" ph="UPDATE accou... " />
-            <marker date="1566900388523" expanded="true" signature="1053:1087" ph="SELECT * FRO... accounts" />
-            <marker date="1566900388523" expanded="true" signature="1260:1298" ph="SELECT * FRO... accounts" />
-            <marker date="1566900388523" expanded="true" signature="1542:1581" ph="SELECT * FRO... v2_users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connexion/includes/verif_accounts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/_class/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+          <folding>
+            <marker date="1566902304962" expanded="true" signature="218:341" ph="INSERT INTO accounts... " />
+            <marker date="1566902304962" expanded="true" signature="772:824" ph="UPDATE accou... " />
+            <marker date="1566902304962" expanded="true" signature="1057:1091" ph="SELECT * FRO... accounts" />
+            <marker date="1566902304962" expanded="true" signature="1264:1302" ph="SELECT * FRO... accounts" />
+            <marker date="1566902304962" expanded="true" signature="1546:1585" ph="SELECT * FRO... v2_users" />
+          </folding>
         </state>
       </provider>
     </entry>
