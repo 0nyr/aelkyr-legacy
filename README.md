@@ -25,6 +25,7 @@ _Le Git privé du projet AELKYR_ :+1:
 ## Le code et les disponibilitées :
 
   - :file_folder: Chacun code dans son coin SUR UNE BRANCHE NON MASTER. Une fois la fonctionnalité avancée ou terminée, une demande de merge doit être faite et est effectuée par la suite suivant les disponibilités des personnes concernées.
+  - :NB : Quand vous faites un commit, veuillez respecter la convention suivante : git commit -m "@<votre_pseudo_GitHub>: <le_texte_explicatif_du_commit>". Par exemple si je veux commit, je ferai git commit -m "@0nyr: <text_commit>.
 
 <p align="center">
   <img src="http://aelkyr.net/sprites_usable/separator_1_usable.png">
