@@ -174,6 +174,14 @@
 			</p>
 		</div>
 		
+		<div class="news_update">
+			<div class="dot_news"></div>
+			<p>
+				[28/08/2019] Structure du site améliorée, mise en place des connexions directes au serveur pour faciliter le développement.</br>
+				</br>
+			</p>
+		</div>
+		
 		<img class='separator' src="./assets/img/separator_1_usable.png"/>
 		<div id="content_end_filler"></div>
 	</section>
