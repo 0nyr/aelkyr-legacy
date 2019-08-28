@@ -44,7 +44,7 @@ if($_POST['pseudo'] != null AND $_POST['pass'] != null AND $_POST['verifPass'] !
         // Envoi du mail pour demander à l'utilisateur de valider son compte
         $to = $_POST['email'];
         $subject = 'Votre inscription sur AELKYR';
-        $message = 'Veuillez cliquer sur ce lien pour valider votre inscription : http://aelkyr.net/inscription/include/verif_accounts.php?code=' . $code_aleatoire .'&email=' . $_POST['email'];
+        $message = 'Veuillez cliquer sur ce lien pour valider votre inscription : http://aelkyr.net/connection/includes/verif_accounts.php?code=' . $code_aleatoire .'&email=' . $_POST['email'];
         mail($to,$subject,$message);
         $_SESSION['alerte'] = '<strong>Votre inscription a été envoyée</strong>';
     }

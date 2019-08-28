@@ -37,7 +37,7 @@ class GestionUtilisateur {
     }
 
     public function getbymail($email) {
-        $q = $this->_db->prepare('SELECT * FROM accounts WHERE email = ?');
+        $q = $this->_db->prepare('SELECT password, state, pseudo, id FROM accounts WHERE email = ?');
         $q->execute(array(
             htmlentities($email),
         ));

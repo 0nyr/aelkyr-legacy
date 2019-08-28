@@ -13,7 +13,7 @@ if(isset($_GET['code']) AND isset($_GET['email'])) {
         // On créé l'objet $account pour mettre à jour son état (0 = non validé, 1 = validé)
         $account = (object)array(
             'state' => 1,
-            'email' => htmlentities($_POST['email'])
+            'email' => htmlentities($_GET['email'])
         );
         $activateAccount = new GestionUtilisateur($db);
         $activateAccount->activateAccount($account);
