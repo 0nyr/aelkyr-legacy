@@ -29,11 +29,13 @@ if($_POST['pseudo'] != null AND $_POST['pass'] != null AND $_POST['verifPass'] !
         // Récupération de la date d'aujourd'hui pour savoir quand le compte a été créé
         $date_inscription = getdate();
         // Création de l'objet $utilisateur dans lequel est enregistré ses informations
+        $state = 0;
         $utilisateur = (object)array(
             'pseudo' => htmlentities($_POST['pseudo']),
             'pass' => $pass_hache,
             'email' => htmlentities($_POST['email']),
             'code' => $code_aleatoire,
+            'state' => $state,
             'created' => $date_inscription[0]
         );
         // Appel de la class pour ajouter cet utilisateur en BDD

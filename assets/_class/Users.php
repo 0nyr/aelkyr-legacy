@@ -13,7 +13,7 @@ class GestionUtilisateur {
         $q->bindParam(':password', $utilisateur->pass);
         $q->bindParam(':email', $utilisateur->email);
         $q->bindParam(':code', $utilisateur->code);
-        $q->bindParam(':state', '0');
+        $q->bindParam(':state', $utilisateur->state);
         $q->bindParam(':created', $utilisateur->created);
 
         $q->execute();
