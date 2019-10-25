@@ -1,6 +1,6 @@
 	<?php include_once("./templates/head.php")?>
 
-	<title>home - aelkyr.net</title>
+	<title>Test home - aelkyr.net</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/stylesheet_index.css">
 </head>
 
